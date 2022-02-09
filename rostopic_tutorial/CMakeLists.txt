@@ -65,6 +65,8 @@ include_directories(
  target_link_libraries(topic_pub ${catkin_LIBRARIES})
  add_executable(topic_sub src/topic_sub.cpp)
  target_link_libraries(topic_sub ${catkin_LIBRARIES})
+ add_executable(topic_class src/topic_class.cpp)
+ target_link_libraries(topic_class ${catkin_LIBRARIES})
 
 
 #############
